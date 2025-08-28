@@ -7,7 +7,7 @@ grep -lr error logs/
 tail -n10 app.log
 chmod a+x script.sh
 grep -ir TODO *.py
-history -20
+history 20
 ps aux --sort -rss
 find / -type d -name backup
 sed 's/foo/bar/g' example.txt > new_example.txt
