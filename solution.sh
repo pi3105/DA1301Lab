@@ -6,7 +6,7 @@ wc -l data.csv
 grep -ilr error logs/
 tail -n10 app.log
 chmod a+x script.sh
-grep -rl TODO *.py
+grep -irl TODO *.py
 history -20
 ps aux --sort -rss
 find / -type d -name backup
