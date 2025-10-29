@@ -191,8 +191,6 @@ def compute_ascii_hash():
         if j!=0:
             print(f"Collision at bucket {h(i)} for keys: {(i,l[h(i)])}")
         l[(h(i)+j)%7]=i
-    for i in data:
-        print(f"key '{i}' hashes to bucket {l.index(i)}")
     
 
 def word_frequency_counter():
